@@ -1,0 +1,16 @@
+endpoints {
+	action-endpoints {
+		action-endpoint (tier) {
+			accepted-inputs (position)
+			local-endpoint ("tierlist/tier/tier.js")
+		}
+		action-endpoint (champInfo) {
+			accepted-inputs (InfoChamp)
+			local-endpoint ("tierlist/champInfo/champInfo.js")
+		}
+		action-endpoint (DetailInfo) {
+			accepted-inputs (champName, whatInfo)
+			local-endpoint ("DetailInfo/DetailInfo.js")
+		}
+	}
+}

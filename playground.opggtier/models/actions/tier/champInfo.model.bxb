@@ -1,0 +1,11 @@
+action (champInfo) {
+  description (클릭하면 나오는 챔피언의 정보)
+  type(Search)
+  collect {
+    input (InfoChamp) {
+      type (InfoChamp)
+      min (Optional) max (One)
+    }
+  }
+  output (champInfoResults)
+}

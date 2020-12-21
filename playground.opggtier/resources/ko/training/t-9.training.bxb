@@ -1,0 +1,20 @@
+train (t-91ydwdre1ess02ugi1kodu5he) {
+  utterance ("[g:tierlist] (정글)[v:position] 티어 가져와줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1573010327409)
+}
+train (t-9dhnwni7l9mhut6abrnyyz30h) {
+  utterance ("[g:tierlist] (바텀)[v:position] 티어 가져와")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572529653554)
+}
+train (t-9ir29mtbnpe9jb9mlhobsq6yl) {
+  utterance ("[g:tierlist] (원 딜)[v:position] 티어 찾아줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572533080615)
+}
+train (t-9v3a7p9pztusngkpvusrrvdo4) {
+  utterance ("[g:tierlist] (미드)[v:position] 알려줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1563450576104)
+}

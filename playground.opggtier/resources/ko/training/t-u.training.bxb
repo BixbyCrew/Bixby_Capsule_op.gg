@@ -1,0 +1,10 @@
+train (t-u3k3fchmpk7idltbr18jxboyt) {
+  utterance ("[g:tierlist] (원 딜)[v:tierlist]  티어 알려줘")
+  plan (Y2BikM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSX4JRmBkIGBB4iZgBjIBgA=)
+  last-modified (1572526033110)
+}
+train (t-uxphh0fpt19rucnabph9p1kh8) {
+  utterance ("[g:tierlist] (탑)[v:position] 오피 모야")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572421917283)
+}
