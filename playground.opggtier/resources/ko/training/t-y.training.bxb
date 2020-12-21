@@ -1,0 +1,20 @@
+train (t-yfdcq7f5w14jj9dl9e1ec5p7p) {
+  utterance ("[g:tierlist] (원거리)[v:position]의 요즘 트렌드가 뭐야")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1573010331280)
+}
+train (t-yk71cqyyotumqc5vqj31ushq7) {
+  utterance ("[g:tierlist] (원거리)[v:position] 티어 가져와")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572530054038)
+}
+train (t-ymdzl3pgupelkm8igwkt0d9go) {
+  utterance ("[g:tierlist] (바텀)[v:position] 트렌드 뭐야")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572532387693)
+}
+train (t-ywozj9stsuijlhb6h97q7dc5e) {
+  utterance ("[g:tierlist] (탑)[v:position] 하고 싶어")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572421873606)
+}

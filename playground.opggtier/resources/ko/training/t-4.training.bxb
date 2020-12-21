@@ -1,0 +1,20 @@
+train (t-4i4286vrgirb5xx3t6n76x4nl) {
+  utterance ("[g:tierlist] (탑)[v:position] 티어 알려줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572421826958)
+}
+train (t-4i8u3lhkhnll34m1s4u3wtler) {
+  utterance ("[g:tierlist] (서포터)[v:position] 티어")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572531816926)
+}
+train (t-4jktaf5vmc01ljazerl80n4xl) {
+  utterance ("[g:tierlist] (탑)[v:position] 티어 궁금")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572422038260)
+}
+train (t-4jz7fe3kuun6d192mw2l9xugz) {
+  utterance ("[g:tierlist] (탑)[v:position] 트렌드 뭐임")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572532713178)
+}

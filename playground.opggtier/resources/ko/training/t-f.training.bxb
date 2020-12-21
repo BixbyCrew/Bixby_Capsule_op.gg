@@ -1,0 +1,15 @@
+train (t-fc35pxytsiefd4jxo9d28sasr) {
+  utterance ("[g:tierlist] (바텀)[v:position] 티어")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572531761476)
+}
+train (t-fkm8dvrrnoeaethttzmy3n6q4) {
+  utterance ("[g:tierlist] (원거리)[v:position] 티어 궁금")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572530228424)
+}
+train (t-fnu7hpa7ejop1xnnqlldjbf3e) {
+  utterance ("[g:tierlist] (정글)[v:position] 티어 가져와")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572422812872)
+}

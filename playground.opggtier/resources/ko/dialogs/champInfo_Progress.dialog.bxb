@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: champInfoResults (this)
+  template("챔피언 정보를 불러오고 있습니다.")
+}

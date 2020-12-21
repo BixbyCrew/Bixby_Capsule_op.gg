@@ -1,0 +1,30 @@
+train (t-x75q9okougsnmji41qt0i5pip) {
+  utterance ("[g:tierlist] (원 딜)[v:position] 티어 뭐야")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572533053421)
+}
+train (t-x9rmcsqvev1e2mzesjx6wsutp) {
+  utterance ("[g:tierlist] (바텀)[v:position] 티어 찾아줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572532073350)
+}
+train (t-xefmov7cwejtfkv1rxeo5bnbd) {
+  utterance ("[g:tierlist] (서폿)[v:position] 티어")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572531240953)
+}
+train (t-xgblbaztrvidlg5v5if0xyfue) {
+  utterance ("[g:tierlist] (탑)[v:position] 티어 알려주셈")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572421947390)
+}
+train (t-xhsdayva3uxgu4f8pihx93nhe) {
+  utterance ("[g:tierlist] (정글)[v:position] 티어 궁금")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572422839252)
+}
+train (t-xjjbapre2c1jkow3t7zhf8cg0) {
+  utterance ("[g:tierlist] (바텀)[v:position] 티어 궁금")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572532483568)
+}

@@ -1,0 +1,28 @@
+capsule {
+  id (playground.opggtier)
+  version (0.2.2)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+    target (bixby-mobile-en-US){enabled (false)}
+  }
+runtime-version (8)
+
+  store-sections {
+    section (Productivity)
+    section (GamesAndFun) {
+      visibility-constraints {
+        country-constraints {
+          allowed-list {
+            allow (KR)
+          }
+        }
+      }
+    }
+  }
+  store-countries {
+    only {
+      allow (KR)
+    }
+  }
+}

@@ -1,0 +1,14 @@
+result-view {
+	match {
+		champInfoResults (result) {
+			min (Required)
+		}
+	}
+	render {
+		layout-macro (champInfo-Summary) {
+			param (champInfoResults) {
+				expression(result)
+			}
+		}
+	}
+}

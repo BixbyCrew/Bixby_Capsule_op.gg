@@ -1,0 +1,27 @@
+structure (tierlist) {
+  description (챔피언 티어에서 불러올 정보들)
+  property (champUrl) {
+    type (champUrl)
+    min (Optional) max (One)
+  }
+  property (champName) {
+    type (champName)
+    min (Optional) max (One)
+  }
+  property (champTier) {
+    type (champTier)
+    min (Optional) max (One)
+  }
+  property (patchVersion) {
+    type (patchVersion)
+    min (Optional) max (One)
+  }
+  property (position) {
+    type (position)
+    min (Optional) max (One)
+  }
+  property (InfoChamp) {
+    type (InfoChamp)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,15 @@
+structure (InfoChamp) {
+  description (영어 포지션,포지션과 챔피언 이름 3개의 정보를 받아온다.)
+  property (position) {
+    type (position)
+    min (Optional) max (One)
+  }
+  property (champName) {
+    type (champName)
+    min (Optional) max (One)
+  }
+  property (engposition) {
+    type (engposition)
+    min (Optional) max (One)
+  }
+}

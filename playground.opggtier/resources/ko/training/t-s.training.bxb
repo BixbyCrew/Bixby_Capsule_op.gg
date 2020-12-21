@@ -1,0 +1,10 @@
+train (t-slkbov0js5h5jre7wv43i605b) {
+  utterance ("[g:tierlist] (미드)[v:position] 티어")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572531783305)
+}
+train (t-sq9nha7g9jnk6sxb0tlp28xec) {
+  utterance ("[g:tierlist] (원거리)[v:position] 티어")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572531841770)
+}

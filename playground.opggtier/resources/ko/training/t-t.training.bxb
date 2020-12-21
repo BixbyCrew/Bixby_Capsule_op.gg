@@ -1,0 +1,10 @@
+train (t-tlr5qc19ofc1mztc4e8bv5b7f) {
+  utterance ("[g:tierlist] (원거리)[v:position] 티어")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572530313024)
+}
+train (t-tqb7btsgjpv5jpqwvag5flyvh) {
+  utterance ("[g:tierlist] (바텀)[v:position] 트렌드 찾아줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572532443761)
+}

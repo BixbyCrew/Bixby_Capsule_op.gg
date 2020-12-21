@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: champInfoResults (this)
+  template("#{value(this.position)} #{value(this.champName)} 정보입니다")
+}

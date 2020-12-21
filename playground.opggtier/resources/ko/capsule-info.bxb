@@ -1,0 +1,20 @@
+capsule-info{
+  search-keywords{
+    keyword (롤)
+    keyword (리그오브레전드)
+    keyword (게임)
+    keyword (챔피언)
+    keyword (티어)
+    keyword (롤 정보)
+    keyword (스킬)
+    keyword (스펠)
+    keyword (룬)
+    keyword (템트리)
+  }
+  display-name (롤하자)
+  developer-name (BixbyCrew)
+  icon-asset (/images/title.png)
+  description ("이제 빅스비로 손쉽게 롤 정보를 알아보자! \n\n 챔피언을 픽 할 때, 룬을 세팅할 때, 템트리를 알고 싶을 때, 힘들게 인터넷 창 열어서 일일이 찾아보는 롤 생활은 이제 그만! \n\n 빅스비 캡슐 '롤 하자'를 통해 빠르고 정확하게 롤 정보를 검색하세요!")
+  privacy-policy-url()
+  dispatch-name (롤 하자)
+}
