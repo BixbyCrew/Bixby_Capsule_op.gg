@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: tierlist (this)
+  template("#{value(this.patchVersion)} 버전의 #{value(this.position)} 티어 챔피언들입니다")
+}

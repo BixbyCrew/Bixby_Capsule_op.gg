@@ -1,0 +1,14 @@
+result-view {
+	match {
+		tierlist (result) {
+			min (Required)
+		}
+	}
+	render {
+		layout-macro (tierlayout-Summary) {
+			param (tierlist) {
+				expression(result)
+			}
+		}
+	}
+}

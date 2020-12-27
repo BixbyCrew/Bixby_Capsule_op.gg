@@ -1,0 +1,8 @@
+structure (DetailResult) {
+  description (챔피언 세부 정보를 반환)
+  extends (champInfoResults)
+  property (whatMode) {
+    type (whatMode)
+    min (Optional) max (One)
+  }
+}

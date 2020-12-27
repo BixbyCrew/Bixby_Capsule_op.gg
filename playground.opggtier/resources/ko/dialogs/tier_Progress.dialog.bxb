@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: tierlist
+  template("리그오브레전드 정보를 검색중입니다")
+}

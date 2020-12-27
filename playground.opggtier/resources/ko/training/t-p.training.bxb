@@ -1,0 +1,15 @@
+train (t-p1vm3klojiswamewl1hjg661w) {
+  utterance ("[g:tierlist] 요즘 (원거리)[v:position] 트렌드 뭐야")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1573010331354)
+}
+train (t-p2hm1ia7vdholmv2n85700tqj) {
+  utterance ("[g:tierlist] (원거리)[v:position] 트렌드 찾아줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572532969805)
+}
+train (t-pg1ylyqkw7oe2u0pe6wkl54wo) {
+  utterance ("[g:tierlist] (탑)[v:position] 트렌드 뭐야")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572532600111)
+}

@@ -1,0 +1,20 @@
+train (t-k8oswi33dftepltyrlbmcky9v) {
+  utterance ("[g:tierlist] (원 딜)[v:position] 트렌드 알려줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572525842464)
+}
+train (t-kat43s9jqsjiwtepzame06jyf) {
+  utterance ("[g:tierlist] (탑)[v:position] 티어 보여줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572421969240)
+}
+train (t-kk4pjemsx97j97yi2urtr2wvb) {
+  utterance ("[g:tierlist] (원거리 딜러)[v:position] 트렌드 궁금해")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572421734714)
+}
+train (t-kkpx189yweyfqqhc0cgx2fach) {
+  utterance ("[g:tierlist] (바텀)[v:position] 트렌드 알려줘")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572529489235)
+}

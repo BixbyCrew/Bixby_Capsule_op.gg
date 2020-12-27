@@ -1,0 +1,48 @@
+structure (champInfoResults) {
+  description (롤 챔피언의 모든 정보)
+  property (recSpell) {
+    type (recSpell)
+    min (Optional) max (Many)
+  }
+  property (recSkill) {
+    type (recSkill)
+    min (Optional) max (Many)
+  }
+  property (recStartItem) {
+    type (recStartItem)
+    min (Optional) max (Many)
+  }
+  property (recMainItem) {
+    type (recMainItem)
+    min (Optional) max (Many)
+  }
+  property (recBoots) {
+    type (recBoots)
+    min (Optional) max (One)
+  }
+  property (recRune) {
+    type (recRune)
+    min (Optional) max (Many)
+  }
+  property (position) {
+    type (position)
+    min (Optional) max (One)
+  }
+  property (champName) {
+    type (champName)
+    min (Optional) max (One)
+  }
+  property (recmainRune) {
+    type (recmainRune)
+    min (Optional) max (Many)
+  }
+  property (recsubRune) {
+    type (recsubRune)
+    min (Optional) max (Many)
+  }
+  property (recspecRune) {
+    type (recspecRune)
+    min (Optional) max (Many)
+  }
+}
+//recmainRune

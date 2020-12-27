@@ -1,0 +1,892 @@
+layout-macro-def (champInfo-Summary) {
+	params {
+		param (champInfoResults) {
+			type (champInfoResults)
+			min (Required) max (One)
+		}
+	}
+	
+	content {
+		section {
+			content {
+				compound-card {
+					content {
+						paragraph {
+							value {
+								template ("추천 소환사 주문")
+							}
+							style (Title_S)
+						}
+						divider
+						single-line{
+							image ("#{value(champInfoResults.recSpell[0])}"){style(Title_XL)}
+							spacer
+							image ("#{value(champInfoResults.recSpell[1])}"){style(Title_XL)}
+						}
+					}
+				}
+				compound-card {
+					content {
+						paragraph {
+							value {
+								template ("추천 스킬 빌드")
+							}
+							style (Title_S)
+						}
+						divider
+						single-line{
+							image ("#{value(champInfoResults.recSkill[0])}"){style(Title_XL)}
+							image (/images/arrow.png){style(Title_S)}
+							image ("#{value(champInfoResults.recSkill[1])}"){style(Title_XL)}
+							image (/images/arrow.png){style(Title_S)}
+							image ("#{value(champInfoResults.recSkill[2])}"){style(Title_XL)}
+						}
+					}
+				}
+				compound-card {
+					content {
+						paragraph {
+							value {
+								template ("추천 시작 아이템")
+							}
+							style (Title_S)
+						}
+						divider
+						single-line{
+							image ("#{value(champInfoResults.recStartItem[0])}"){style(Title_XL)}
+							spacer
+							image ("#{value(champInfoResults.recStartItem[1])}"){style(Title_XL)}
+						}
+					}
+				}
+				compound-card {
+					content {
+						paragraph {
+							value {
+								template ("추천 아이템 빌드")
+							}
+							style (Title_S)
+						}
+						divider
+						single-line{
+							image ("#{value(champInfoResults.recMainItem[0])}"){style(Title_XL)}
+							image (/images/arrow.png){style(Title_S)}
+							image ("#{value(champInfoResults.recMainItem[1])}"){style(Title_XL)}
+							image (/images/arrow.png){style(Title_S)}
+							image ("#{value(champInfoResults.recMainItem[2])}"){style(Title_XL)}
+						}
+					}
+				}
+				compound-card {
+					content {
+						paragraph {
+							value {
+								template ("추천 신발")
+							}
+							style (Title_S)
+						}
+						divider
+						single-line{
+							image ("#{value(champInfoResults.recBoots)}"){shape (Circle)style(Title_XL)}
+						}
+					}
+				}
+				compound-card {
+					content {
+						paragraph {
+							value {
+								template ("추천 룬")
+							}
+							style (Title_S)
+						}
+						divider
+						if (size(champInfoResults.recmainRune) == '15') {
+							hbox {
+								content {
+									vbox {
+										grow(5)
+										halign (Center)
+										content {
+											single-line{//첫번째 룬
+												image ("#{value(champInfoResults.recmainRune[0])}") {shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[1])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[2])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[3])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[4])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[5])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[6])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[7])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[8])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[9])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[10])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[11])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[12])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[13])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[14])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+						}
+						else-if (size(champInfoResults.recmainRune) == '14') {
+							hbox {
+								content {
+									vbox {
+										grow(5)
+										halign (Center)
+										content {
+											single-line{//첫번째 룬
+												image ("#{value(champInfoResults.recmainRune[0])}") {shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(2)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[1])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(2)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[2])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(2)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[3])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(2)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[4])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[5])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[6])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[7])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[8])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[9])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[10])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[11])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[12])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[13])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+						}
+						else-if (size(champInfoResults.recmainRune) == '13') {
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line{//첫번째 룬
+												image ("#{value(champInfoResults.recmainRune[0])}") {shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[1])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[2])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[3])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[4])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[5])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[6])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[7])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[8])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[9])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[10])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[11])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recmainRune[12])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card { // 추천 보조 룬 ****************************************************************
+					content {
+						paragraph {
+							value {
+								template ("추천 보조 룬")
+							}
+							style (Title_S)
+						}
+						divider
+						if (size(champInfoResults.recsubRune) == '11') {
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line{//첫번째 룬
+												image ("#{value(champInfoResults.recsubRune[0])}") {shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[1])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[2])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[3])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[4])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[5])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[6])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[7])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[8])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[9])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[10])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+						}
+						else-if (size(champInfoResults.recsubRune) == '10') {
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line{//첫번째 룬
+												image ("#{value(champInfoResults.recsubRune[0])}") {shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[1])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[2])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[3])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[4])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[5])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[6])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+							hbox {
+								content {
+									vbox {
+										grow(1)
+										halign (End)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[7])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Center)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[8])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+									vbox {
+										grow(1)
+										halign (Start)
+										content {
+											single-line {
+												image ("#{value(champInfoResults.recsubRune[9])}"){shape (Circle)style(Title_XL)}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card {
+					content {
+						paragraph {
+							value {
+								template ("특성")
+							}
+							style (Title_S)
+						}
+						divider
+						hbox {
+							content {
+								vbox {
+									grow(1)
+									halign (End)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[0])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+								vbox {
+									grow(1)
+									halign (Center)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[1])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+								vbox {
+									grow(1)
+									halign (Start)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[2])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+							}
+						}
+						hbox {
+							content {
+								vbox {
+									grow(1)
+									halign (End)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[3])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+								vbox {
+									grow(1)
+									halign (Center)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[4])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+								vbox {
+									grow(1)
+									halign (Start)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[5])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+							}
+						}
+						hbox {
+							content {
+								vbox {
+									grow(1)
+									halign (End)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[6])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+								vbox {
+									grow(1)
+									halign (Center)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[7])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+								vbox {
+									grow(1)
+									halign (Start)
+									content {
+										single-line {
+											image ("#{value(champInfoResults.recspecRune[8])}"){shape (Circle)style(Title_XL)}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

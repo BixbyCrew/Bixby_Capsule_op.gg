@@ -1,0 +1,14 @@
+action (DetailInfo) {
+  description (세부 챔피언 정보 탐색)
+  collect {
+    input (champName) {
+      type (champName)
+      min (Optional) max (One)
+    }
+    input (whatInfo) {
+      type (whatInfo)
+      min (Optional) max (One)
+    }
+  }
+  output (DetailResult)
+}

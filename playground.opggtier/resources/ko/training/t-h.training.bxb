@@ -1,0 +1,20 @@
+train (t-h2eqdd260ru0intye2b2qs42d) {
+  utterance ([g:champInfoResults] 미드 파이크)
+  plan (Y2BkUM7LT0lMrczPz9PLL0hPL8lMLdJLzkjMLfDMS8sPSi0uzSkpZgABRhABAA==)
+  last-modified (1570117102912)
+}
+train (t-h2qbz92viw9mev1m2i6gqtw68) {
+  utterance ("[g:tierlist] (탑)[v:position] 트렌드 알려주셈")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572421987532)
+}
+train (t-hhwuwsu9gfpqvtlx08djppdug) {
+  utterance ("[g:tierlist] (원딜)[v:position] 티어 가져와")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572422972745)
+}
+train (t-huhacu6g6p9xxl4kc3ouwi28n) {
+  utterance ("[g:tierlist] (원거리)[v:position] 티어 좀")
+  plan (Y2BmkM7LT0lMrczPz9PLL0hPL8lMLdIDETmZxSUM4jgkseoqyC/OLMnMz2NgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572529904622)
+}

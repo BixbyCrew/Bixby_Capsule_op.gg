@@ -1,0 +1,11 @@
+action (tier) {
+  type(Search)
+  description (오피지지 티어 받아오기)
+  collect {
+    input (position) {
+      type (position)
+      min (Required) max (One)
+    }
+  }
+  output (tierlist)
+}

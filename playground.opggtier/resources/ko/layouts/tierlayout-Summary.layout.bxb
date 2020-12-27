@@ -1,0 +1,47 @@
+layout-macro-def (tierlayout-Summary) {
+	params {
+		param (tierlist) {
+			type (tierlist)
+			min (Required)
+		}
+	}
+	
+	content {
+		section {
+			content {
+				for-each (tierlist) {
+					as () {
+						index-var (j)
+						compound-card {
+							on-click {
+								intent {
+									goal: champInfo
+									value: $expr(tierlist[j].InfoChamp)
+								}
+							}
+							content {
+								image-card {
+									image-url ("#{value(tierlist[j].champUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("[#{value(tierlist[j].champTier)}      #{value(tierlist[j].champName)}]")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				single-line {
+					text {
+						value ("출처 : 롤 전적 검색 OP.GG(https://www.op.gg/)")
+						style (Detail_M_Soft)
+					}
+				}
+			}
+		}
+	}
+}
